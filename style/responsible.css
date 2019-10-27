@@ -8,16 +8,24 @@
   .navigation {
     display: none;
   }
-  main .banner {
-    background: url(../images/responsive-banner.jpg) no-repeat;
-    background-size: cover;
-  }
   main .banner__text {
     width: 100%;
     max-width: 320px;
     height: 108px;
     margin-left: 280px;
     padding-top: 150px;
+  }
+  main .banner__text.banner-heading {
+    color: #fff;
+    font-size: 30px;
+  }
+  main .banner__text.banner-paragraph {
+    width: 100%;
+    max-width: 260px;
+    height: 80px;
+    color: #fff;
+    font-size: 25px;
+    line-height: 41px;
   }
 }
 /*# sourceMappingURL=responsible.css.map */
