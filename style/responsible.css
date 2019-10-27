@@ -1,0 +1,23 @@
+@media only screen and (max-width: 640px) {
+  header .logo {
+    font-size: 42px;
+    margin-left: 100px;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .navigation {
+    display: none;
+  }
+  main .banner {
+    background: url(../images/responsive-banner.jpg) no-repeat;
+    background-size: cover;
+  }
+  main .banner__text {
+    width: 100%;
+    max-width: 320px;
+    height: 108px;
+    margin-left: 280px;
+    padding-top: 150px;
+  }
+}
+/*# sourceMappingURL=responsible.css.map */
