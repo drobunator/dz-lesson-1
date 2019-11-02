@@ -79,81 +79,93 @@ main {
     background: url("../images/banner.jpg") no-repeat;
     width: 100%;
     max-width: 1250px;
-    height: 579px;
+    height: auto;
     background-size: cover;
     position: relative;
-  }
-
-  .link-left {
-    display: block;
-    position: absolute;
-    left: 92px;
-    top: 295px;
-  }
-
-  .link-right {
-    display: block;
-    position: absolute;
-    right: 92px;
-    top: 295px;
-  }
-
-  .link-left__image-left {
-    background: url("../images/link-left.png") no-repeat;
-    width: 25px;
-    height: 63px;
-    background-size: cover;
-  }
-
-  .link-right__image-right {
-    background: url("../images/link-right.png") no-repeat;
-    width: 25px;
-    height: 63px;
-    background-size: cover;
-  }
-
-  //TEXT CARD
-  .banner__text {
-    width: 100%;
-    max-width: 422px;
-    height: 270px;
-    margin-left: 625px;
-    padding-top: 150px;
-
-    .banner-heading {
-      color: rgba(255,255,255,0.7);
-      font-size: 41px;
-      font-weight: normal;
+    display: flex;
+    justify-content: space-between;
+    .link-left {
+      display: block;
+      position: absolute;
+      left: 88px;
+      top: calc(50% - 31px);
     }
 
-    .banner-paragraph {
-      width: 100%;
-      max-width: 260px;
-      height: 80px;
-      color: rgba(255,255,255,0.7);
-      font-size: 25px;
-      line-height: 41px;
+    .link-right {
+      display: block;
+      position: absolute;
+      right: 88px;
+      top: calc(50% - 31px);
     }
 
-    .registration-link {
-      text-decoration: none;
-      font-weight: 400;
-      font-size: 20px;
-      color: #ffffff;
-      width: 172px;
-      height: 41px;
-      background: #5094f2;
+    .link-left__image-left {
+      background: url("../images/link-left.png") no-repeat;
+      width: 25px;
+      height: 63px;
+      background-size: cover;
+    }
+
+    .link-right__image-right {
+      background: url("../images/link-right.png") no-repeat;
+      width: 25px;
+      height: 63px;
+      background-size: cover;
+    }
+    .banner-content{
       display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 39px;
-      border-radius: 2px;
-    }
+      margin: 0 auto;
+      width: 100%;
+      max-width: 1024px;
+      height: auto;
 
-    .registration-link-images {
-      margin-right: 9px;
-    }
+      .banner__image-1{
+        margin-top: 32px;
+        margin-left: 63px;
+        max-width: 100%;
+        min-width: 210px;
+        height: auto;
+      }
+      //TEXT CARD
+      .banner__text {
+        width: 100%;
+        max-width: 422px;
+        height: 270px;
+        padding-top: 80px;
+        margin-left: 103px;
+      }
+      .banner__text-heading {
+        color: rgba(255,255,255,0.7);
+        font-size: 41px;
+        font-weight: normal;
+        width: 100%;
+      }
+      .banner__text-paragraph {
+        color: rgba(255,255,255,0.7);
+        font-size: 25px;
+        line-height: 41px;
+      }
+      .registration-link {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 20px;
+        color: #ffffff;
+        width: 172px;
+        height: 41px;
+        background: #5094f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 39px;
+        border-radius: 2px;
+        margin-left: 12px;
+      }
 
+      .registration-link__images {
+        margin-right: 9px;
+      }
+
+    }
+  }
   }
 
   .main__card {
@@ -239,7 +251,7 @@ main {
     background: #ffffff;
     color: #979797;
   }
-}
+
 
 
 

@@ -64,55 +64,69 @@ main .banner {
   background: url("../images/banner.jpg") no-repeat;
   width: 100%;
   max-width: 1250px;
-  height: 579px;
+  height: auto;
   background-size: cover;
   position: relative;
+  display: flex;
+  justify-content: space-between;
 }
-main .link-left {
+main .banner .link-left {
   display: block;
   position: absolute;
-  left: 92px;
-  top: 295px;
+  left: 88px;
+  top: calc(50% - 31px);
 }
-main .link-right {
+main .banner .link-right {
   display: block;
   position: absolute;
-  right: 92px;
-  top: 295px;
+  right: 88px;
+  top: calc(50% - 31px);
 }
-main .link-left__image-left {
+main .banner .link-left__image-left {
   background: url("../images/link-left.png") no-repeat;
   width: 25px;
   height: 63px;
   background-size: cover;
 }
-main .link-right__image-right {
+main .banner .link-right__image-right {
   background: url("../images/link-right.png") no-repeat;
   width: 25px;
   height: 63px;
   background-size: cover;
 }
-main .banner__text {
+main .banner .banner-content {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1024px;
+  height: auto;
+}
+main .banner .banner-content .banner__image-1 {
+  margin-top: 32px;
+  margin-left: 63px;
+  max-width: 100%;
+  min-width: 210px;
+  height: auto;
+}
+main .banner .banner-content .banner__text {
   width: 100%;
   max-width: 422px;
   height: 270px;
-  margin-left: 625px;
-  padding-top: 150px;
+  padding-top: 80px;
+  margin-left: 103px;
 }
-main .banner__text .banner-heading {
+main .banner .banner-content .banner__text-heading {
   color: rgba(255, 255, 255, 0.7);
   font-size: 41px;
   font-weight: normal;
-}
-main .banner__text .banner-paragraph {
   width: 100%;
-  max-width: 260px;
-  height: 80px;
+}
+main .banner .banner-content .banner__text-paragraph {
   color: rgba(255, 255, 255, 0.7);
   font-size: 25px;
   line-height: 41px;
 }
-main .banner__text .registration-link {
+main .banner .banner-content .registration-link {
   text-decoration: none;
   font-weight: 400;
   font-size: 20px;
@@ -125,74 +139,75 @@ main .banner__text .registration-link {
   justify-content: center;
   margin-top: 39px;
   border-radius: 2px;
+  margin-left: 12px;
 }
-main .banner__text .registration-link-images {
+main .banner .banner-content .registration-link__images {
   margin-right: 9px;
 }
-main .main__card {
+.main__card {
   background: #fff;
   display: flex;
   justify-content: space-around;
   text-align: center;
   padding: 58px 175px 98px 175px;
 }
-main .card__heading {
+.card__heading {
   color: #5094f2;
   font-size: 20px;
   margin-top: 29px;
 }
-main p {
+p {
   font-size: 14px;
   color: #909090;
   margin-top: 10px;
   display: block;
   width: 250px;
 }
-main .shopping__card {
+.shopping__card {
   background: #fff;
   padding-bottom: 60px;
   border-bottom: 1px solid #e5e5e5;
 }
-main .shopping-card__heading {
+.shopping-card__heading {
   font-size: 42px;
   font-weight: lighter;
   color: #6f7173;
   margin-left: 170px;
 }
-main .card__size {
+.card__size {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 16px;
 }
-main .card__image {
+.card__image {
   padding-top: 42px;
 }
-main .card__text {
+.card__text {
   width: 500px;
   height: 310px;
   display: block;
   margin-top: 16px;
   margin-left: 91px;
 }
-main .shopping__card__heading {
+.shopping__card__heading {
   margin-left: 175px;
   margin-bottom: 26px;
 }
-main .card__text__heading {
+.card__text__heading {
   color: #6f7173;
   line-height: 36px;
   font-size: 26px;
   font-weight: lighter;
 }
-main .card__text__paragraph {
+.card__text__paragraph {
   color: #979797;
   line-height: 36px;
   font-size: 16px;
   display: block;
   width: 465px;
 }
-main footer {
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
