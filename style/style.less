@@ -1,11 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-}
-
-.size {
-  width: 100%;
-  max-width: 1250px;
+  box-sizing: border-box;
 }
 
 body {
@@ -85,42 +81,42 @@ main {
     display: flex;
     justify-content: space-between;
 
-    .link-left {
+    .banner__link-left {
       display: block;
       position: absolute;
       left: 88px;
       top: calc(50% - 31px);
     }
 
-    .link-right {
+    .banner__link-right {
       display: block;
       position: absolute;
       right: 88px;
       top: calc(50% - 31px);
     }
 
-    .link-left__image-left {
+    .banner__link-left__image-left {
       background: url("../images/link-left.png") no-repeat;
       width: 25px;
       height: 63px;
       background-size: cover;
     }
 
-    .link-right__image-right {
+    .banner__link-right__image-right {
       background: url("../images/link-right.png") no-repeat;
       width: 25px;
       height: 63px;
       background-size: cover;
     }
 
-    .banner-content {
+    .bannerContent {
       display: flex;
       margin: 0 auto;
       width: 100%;
       max-width: 1024px;
       height: auto;
 
-      .banner__image-1 {
+      .bannerContent__image-1 {
         margin-top: 32px;
         margin-left: 63px;
         max-width: 100%;
@@ -129,7 +125,7 @@ main {
       }
 
       //TEXT CARD
-      .banner__text {
+      .bannerContent__text {
         width: 100%;
         max-width: 422px;
         height: 270px;
@@ -137,20 +133,20 @@ main {
         margin-left: 103px;
       }
 
-      .banner__text-heading {
+      .bannerContent__text-heading {
         color: rgba(255, 255, 255, 0.7);
         font-size: 41px;
         font-weight: normal;
         width: 100%;
       }
 
-      .banner__text-paragraph {
+      .bannerContent__text-paragraph {
         color: rgba(255, 255, 255, 0.7);
         font-size: 25px;
         line-height: 41px;
       }
 
-      .registration-link {
+      .bannerContent__registration-link {
         text-decoration: none;
         font-weight: 400;
         font-size: 20px;
@@ -166,13 +162,15 @@ main {
         margin-left: 12px;
       }
 
-      .registration-link__images {
+      .bannerContent__registration-link__images {
         margin-right: 9px;
       }
 
     }
   }
 
+
+/*MAIN CARD START*/
   .main__card {
     background: #fff;
     display: flex;
@@ -196,56 +194,55 @@ main {
     }
   }
 
+  /*PRODUCT START*/
   .product {
     background: #fff;
     padding-bottom: 60px;
     border-bottom: 1px solid #e5e5e5;
+
+    .product__heading {
+      width: 100%;
+      font-size: 42px;
+      font-weight: lighter;
+      color: #6f7173;
+      margin-left: 170px;
+      margin-bottom: 26px;
+    }
+
+    .productCard__size {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-top: 16px;
+    }
+
+    .productCard-image {
+      padding-top: 42px;
+    }
+
+    .productCard__text {
+      width: 500px;
+      height: 310px;
+      display: block;
+      margin-top: 16px;
+      margin-left: 91px;
+    }
+
+    .productCard__text-heading {
+      color: #6f7173;
+      line-height: 36px;
+      font-size: 26px;
+      font-weight: lighter;
+    }
+
+    .productCard__text-paragraph {
+      color: #979797;
+      line-height: 36px;
+      font-size: 16px;
+      display: block;
+      width: 465px;
+    }
   }
-
-  .product__heading {
-    width: 100%;
-    font-size: 42px;
-    font-weight: lighter;
-    color: #6f7173;
-    margin-left: 170px;
-    margin-bottom: 26px;
-  }
-
-  .productCard__size {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 16px;
-  }
-
-  .productCard-image {
-    padding-top: 42px;
-  }
-
-  .productCard__text {
-    width: 500px;
-    height: 310px;
-    display: block;
-    margin-top: 16px;
-    margin-left: 91px;
-  }
-
-  .productCard__text-heading {
-    color: #6f7173;
-    line-height: 36px;
-    font-size: 26px;
-    font-weight: lighter;
-  }
-
-  .productCard__text-paragraph {
-    color: #979797;
-    line-height: 36px;
-    font-size: 16px;
-    display: block;
-    width: 465px;
-  }
-
-
 }
 
 
