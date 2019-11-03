@@ -84,6 +84,7 @@ main {
     position: relative;
     display: flex;
     justify-content: space-between;
+
     .link-left {
       display: block;
       position: absolute;
@@ -111,20 +112,22 @@ main {
       height: 63px;
       background-size: cover;
     }
-    .banner-content{
+
+    .banner-content {
       display: flex;
       margin: 0 auto;
       width: 100%;
       max-width: 1024px;
       height: auto;
 
-      .banner__image-1{
+      .banner__image-1 {
         margin-top: 32px;
         margin-left: 63px;
         max-width: 100%;
         min-width: 210px;
         height: auto;
       }
+
       //TEXT CARD
       .banner__text {
         width: 100%;
@@ -133,17 +136,20 @@ main {
         padding-top: 80px;
         margin-left: 103px;
       }
+
       .banner__text-heading {
-        color: rgba(255,255,255,0.7);
+        color: rgba(255, 255, 255, 0.7);
         font-size: 41px;
         font-weight: normal;
         width: 100%;
       }
+
       .banner__text-paragraph {
-        color: rgba(255,255,255,0.7);
+        color: rgba(255, 255, 255, 0.7);
         font-size: 25px;
         line-height: 41px;
       }
+
       .registration-link {
         text-decoration: none;
         font-weight: 400;
@@ -166,7 +172,6 @@ main {
 
     }
   }
-  }
 
   .main__card {
     background: #fff;
@@ -175,47 +180,49 @@ main {
     text-align: center;
     padding: 58px 175px 98px 175px;
 
+
+    .card__text-heading {
+      color: #5094f2;
+      font-size: 20px;
+      margin-top: 29px;
+    }
+
+    .card__text-paragraph {
+      font-size: 14px;
+      color: #909090;
+      margin-top: 10px;
+      display: block;
+      width: 250px;
+    }
   }
 
-  .card__heading {
-    color: #5094f2;
-    font-size: 20px;
-    margin-top: 29px;
-  }
-
-  p {
-    font-size: 14px;
-    color: #909090;
-    margin-top: 10px;
-    display: block;
-    width: 250px;
-  }
-
-  .shopping__card {
+  .product {
     background: #fff;
     padding-bottom: 60px;
     border-bottom: 1px solid #e5e5e5;
   }
 
-  .shopping-card__heading {
+  .product__heading {
+    width: 100%;
     font-size: 42px;
     font-weight: lighter;
     color: #6f7173;
     margin-left: 170px;
+    margin-bottom: 26px;
   }
 
-  .card__size {
+  .productCard__size {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 16px;
   }
 
-  .card__image {
+  .productCard-image {
     padding-top: 42px;
   }
 
-  .card__text {
+  .productCard__text {
     width: 500px;
     height: 310px;
     display: block;
@@ -223,19 +230,14 @@ main {
     margin-left: 91px;
   }
 
-  .shopping__card__heading {
-    margin-left: 175px;
-    margin-bottom: 26px;
-  }
-
-  .card__text__heading {
+  .productCard__text-heading {
     color: #6f7173;
     line-height: 36px;
     font-size: 26px;
     font-weight: lighter;
   }
 
-  .card__text__paragraph {
+  .productCard__text-paragraph {
     color: #979797;
     line-height: 36px;
     font-size: 16px;
@@ -243,14 +245,18 @@ main {
     width: 465px;
   }
 
-  footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 93px;
-    background: #ffffff;
-    color: #979797;
-  }
+
+}
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 93px;
+  background: #ffffff;
+  color: #979797;
+}
 
 
 

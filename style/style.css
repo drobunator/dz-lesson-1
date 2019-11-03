@@ -144,63 +144,61 @@ main .banner .banner-content .registration-link {
 main .banner .banner-content .registration-link__images {
   margin-right: 9px;
 }
-.main__card {
+main .main__card {
   background: #fff;
   display: flex;
   justify-content: space-around;
   text-align: center;
   padding: 58px 175px 98px 175px;
 }
-.card__heading {
+main .main__card .card__text-heading {
   color: #5094f2;
   font-size: 20px;
   margin-top: 29px;
 }
-p {
+main .main__card .card__text-paragraph {
   font-size: 14px;
   color: #909090;
   margin-top: 10px;
   display: block;
   width: 250px;
 }
-.shopping__card {
+main .product {
   background: #fff;
   padding-bottom: 60px;
   border-bottom: 1px solid #e5e5e5;
 }
-.shopping-card__heading {
+main .product__heading {
+  width: 100%;
   font-size: 42px;
   font-weight: lighter;
   color: #6f7173;
   margin-left: 170px;
+  margin-bottom: 26px;
 }
-.card__size {
+main .productCard__size {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 16px;
 }
-.card__image {
+main .productCard-image {
   padding-top: 42px;
 }
-.card__text {
+main .productCard__text {
   width: 500px;
   height: 310px;
   display: block;
   margin-top: 16px;
   margin-left: 91px;
 }
-.shopping__card__heading {
-  margin-left: 175px;
-  margin-bottom: 26px;
-}
-.card__text__heading {
+main .productCard__text-heading {
   color: #6f7173;
   line-height: 36px;
   font-size: 26px;
   font-weight: lighter;
 }
-.card__text__paragraph {
+main .productCard__text-paragraph {
   color: #979797;
   line-height: 36px;
   font-size: 16px;
