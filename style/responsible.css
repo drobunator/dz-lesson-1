@@ -55,21 +55,15 @@
     text-align: left;
     padding: 0;
   }
-  main .main__card .card-1,
-  main .main__card .card-2,
-  main .main__card .card-3 {
+  main .main__card .card {
     display: flex;
     border-bottom: 1px solid #979797;
   }
-  main .main__card .card-1 img,
-  main .main__card .card-2 img,
-  main .main__card .card-3 img {
+  main .main__card .card img {
     width: 138px;
     height: 142px;
   }
-  main .main__card .card-1 .card-text,
-  main .main__card .card-2 .card-text,
-  main .main__card .card-3 .card-text {
+  main .main__card .card .card-text {
     display: flex;
     flex-direction: column;
   }
