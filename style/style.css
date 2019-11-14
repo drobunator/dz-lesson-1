@@ -101,7 +101,7 @@ main .banner .banner-content {
   max-width: 1024px;
   height: auto;
 }
-main .banner .banner-content .banner__image-1 {
+main .banner .banner-content .banner__image {
   margin-top: 32px;
   margin-left: 63px;
   max-width: 100%;
@@ -126,7 +126,7 @@ main .banner .banner-content .banner__text-paragraph {
   font-size: 25px;
   line-height: 41px;
 }
-main .banner .banner-content .registration-link {
+.registration-link {
   text-decoration: none;
   font-weight: 400;
   font-size: 20px;
@@ -144,24 +144,31 @@ main .banner .banner-content .registration-link {
 main .banner .banner-content .registration-link__images {
   margin-right: 9px;
 }
-.main__card {
+.main-card {
   background: #fff;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   text-align: center;
-  padding: 58px 175px 98px 175px;
+  padding: 58px 0 98px 0;
 }
-.card__heading {
+.box {
+  max-width: 1050px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.card-text__heading {
   color: #5094f2;
   font-size: 20px;
   margin-top: 29px;
 }
-p {
+.card-text__paragraph {
   font-size: 14px;
   color: #909090;
   margin-top: 10px;
   display: block;
-  width: 250px;
+  max-width: 250px;
 }
 .shopping__card {
   background: #fff;
