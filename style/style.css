@@ -1,10 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-}
-.size {
-  width: 100%;
-  max-width: 1250px;
+  box-sizing: border-box;
 }
 body {
   font-family: 'Segoe WP N', 'Arial', sans-serif;
@@ -25,42 +22,49 @@ header {
   justify-content: space-between;
   align-items: end;
 }
-header .logo {
+.logo {
   font-size: 42px;
   margin-left: 200px;
   position: relative;
   margin-bottom: 21px;
   padding-top: 20px;
 }
-header .logo:before {
+.logo:before {
   content: url("../images/logo.jpg");
   position: absolute;
   left: -60px;
   top: 26px;
 }
-header .navigation {
+.navigation {
   margin-right: 175px;
   margin-bottom: 22px;
   padding-top: 42px;
 }
-header .navigation a {
+.navigation a {
   text-decoration: none;
   font-weight: 400;
   font-size: 20px;
   margin-left: 19px;
   color: #6c6c6c;
 }
-header .navigation a:hover {
+.navigation a:hover {
   border-bottom: 4px solid #5094f2;
   padding-bottom: 18px;
 }
 /*HEADER END*/
+
+
+
+
+/*START MAIN*/
 main {
   width: 100%;
   max-width: 1250px;
   /*BANNER*/
+  /*MAIN CARD START*/
+  /*PRODUCT START*/
 }
-main .banner {
+.banner {
   background: url("../images/banner.jpg") no-repeat;
   width: 100%;
   max-width: 1250px;
@@ -70,63 +74,68 @@ main .banner {
   display: flex;
   justify-content: space-between;
 }
-main .banner .link-left {
+.link-left {
   display: block;
   position: absolute;
   left: 88px;
   top: calc(50% - 31px);
 }
-main .banner .link-right {
-  display: block;
-  position: absolute;
-  right: 88px;
-  top: calc(50% - 31px);
-}
-main .banner .link-left__image-left {
+
+
+.link-left__image {
   background: url("../images/link-left.png") no-repeat;
   width: 25px;
   height: 63px;
   background-size: cover;
 }
-main .banner .link-right__image-right {
+
+
+.link-right {
+  display: block;
+  position: absolute;
+  right: 88px;
+  top: calc(50% - 31px);
+}
+
+.link-right__image {
   background: url("../images/link-right.png") no-repeat;
   width: 25px;
   height: 63px;
   background-size: cover;
 }
-main .banner .banner-content {
+.banner-content {
   display: flex;
-  margin: 0 auto;
+  justify-content: center;
   width: 100%;
   max-width: 1024px;
   height: auto;
 }
-main .banner .banner-content .banner__image {
+.banner-content__image-block_image{
   margin-top: 32px;
   margin-left: 63px;
   max-width: 100%;
   min-width: 210px;
-  height: auto;
 }
-main .banner .banner-content .banner__text {
+
+.banner-content__text {
   width: 100%;
   max-width: 422px;
   height: 270px;
   padding-top: 80px;
   margin-left: 103px;
 }
-main .banner .banner-content .banner__text-heading {
+main .banner .bannerContent .bannerContent__text-heading {
   color: rgba(255, 255, 255, 0.7);
   font-size: 41px;
   font-weight: normal;
   width: 100%;
 }
-main .banner .banner-content .banner__text-paragraph {
+main .banner .bannerContent .bannerContent__text-paragraph {
   color: rgba(255, 255, 255, 0.7);
   font-size: 25px;
   line-height: 41px;
 }
-.registration-link {
+main .banner .bannerContent .bannerContent__registration-link {
   text-decoration: none;
   font-weight: 400;
   font-size: 20px;
@@ -141,79 +150,71 @@ main .banner .banner-content .banner__text-paragraph {
   border-radius: 2px;
   margin-left: 12px;
 }
-main .banner .banner-content .registration-link__images {
+main .banner .bannerContent .bannerContent__registration-link__images {
   margin-right: 9px;
 }
-.main-card {
+main .main__card {
   background: #fff;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
-  padding: 58px 0 98px 0;
+  padding: 58px 175px 98px 175px;
 }
-.box {
-  max-width: 1050px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-}
-.card-text__heading {
+main .main__card .card__text-heading {
   color: #5094f2;
   font-size: 20px;
   margin-top: 29px;
 }
-.card-text__paragraph {
+main .main__card .card__text-paragraph {
   font-size: 14px;
   color: #909090;
   margin-top: 10px;
   display: block;
-  max-width: 250px;
+  width: 250px;
 }
-.shopping__card {
+main .product {
   background: #fff;
   padding-bottom: 60px;
   border-bottom: 1px solid #e5e5e5;
 }
-.shopping-card__heading {
+main .product .product__heading {
+  width: 100%;
   font-size: 42px;
   font-weight: lighter;
   color: #6f7173;
   margin-left: 170px;
+  margin-bottom: 26px;
 }
-.card__size {
+main .product .productCard__size {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 16px;
 }
-.card__image {
+main .product .productCard-image {
   padding-top: 42px;
 }
-.card__text {
+main .product .productCard__text {
   width: 500px;
   height: 310px;
   display: block;
   margin-top: 16px;
   margin-left: 91px;
 }
-.shopping__card__heading {
-  margin-left: 175px;
-  margin-bottom: 26px;
-}
-.card__text__heading {
+main .product .productCard__text-heading {
   color: #6f7173;
   line-height: 36px;
   font-size: 26px;
   font-weight: lighter;
 }
-.card__text__paragraph {
+main .product .productCard__text-paragraph {
   color: #979797;
   line-height: 36px;
   font-size: 16px;
   display: block;
   width: 465px;
 }
+/*START FOOTER*/
 footer {
   display: flex;
   justify-content: center;
