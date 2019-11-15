@@ -124,18 +124,18 @@ main {
   padding-top: 80px;
   margin-left: 103px;
 }
-main .banner .bannerContent .bannerContent__text-heading {
+.banner-content__heading {
   color: rgba(255, 255, 255, 0.7);
   font-size: 41px;
   font-weight: normal;
   width: 100%;
 }
-main .banner .bannerContent .bannerContent__text-paragraph {
+.banner-content__text-paragraph {
   color: rgba(255, 255, 255, 0.7);
   font-size: 25px;
   line-height: 41px;
 }
-main .banner .bannerContent .bannerContent__registration-link {
+.banner-content__registration-link {
   text-decoration: none;
   font-weight: 400;
   font-size: 20px;
@@ -150,34 +150,38 @@ main .banner .bannerContent .bannerContent__registration-link {
   border-radius: 2px;
   margin-left: 12px;
 }
-main .banner .bannerContent .bannerContent__registration-link__images {
+.registration-link__images {
   margin-right: 9px;
 }
-main .main__card {
+
+
+
+
+.main-card {
   background: #fff;
   display: flex;
   justify-content: space-around;
   text-align: center;
   padding: 58px 175px 98px 175px;
 }
-main .main__card .card__text-heading {
+.card__text-heading {
   color: #5094f2;
   font-size: 20px;
   margin-top: 29px;
 }
-main .main__card .card__text-paragraph {
+.card__text-paragraph {
   font-size: 14px;
   color: #909090;
   margin-top: 10px;
   display: block;
   width: 250px;
 }
-main .product {
+.product {
   background: #fff;
   padding-bottom: 60px;
   border-bottom: 1px solid #e5e5e5;
 }
-main .product .product__heading {
+.product__heading {
   width: 100%;
   font-size: 42px;
   font-weight: lighter;
@@ -185,29 +189,29 @@ main .product .product__heading {
   margin-left: 170px;
   margin-bottom: 26px;
 }
-main .product .productCard__size {
+.product-card_size {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 16px;
 }
-main .product .productCard-image {
+.product-card__image {
   padding-top: 42px;
 }
-main .product .productCard__text {
+.product-card__text {
   width: 500px;
   height: 310px;
   display: block;
   margin-top: 16px;
   margin-left: 91px;
 }
-main .product .productCard__text-heading {
+.product-card__text-heading {
   color: #6f7173;
   line-height: 36px;
   font-size: 26px;
   font-weight: lighter;
 }
-main .product .productCard__text-paragraph {
+.product-card__text-paragraph {
   color: #979797;
   line-height: 36px;
   font-size: 16px;
@@ -215,7 +219,7 @@ main .product .productCard__text-paragraph {
   width: 465px;
 }
 /*START FOOTER*/
-footer {
+.footer {
   display: flex;
   justify-content: center;
   align-items: center;
