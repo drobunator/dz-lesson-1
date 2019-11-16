@@ -12,8 +12,13 @@ body {
   max-width: 1250px;
   margin: 0 auto;
 }
+
+
+
+
+
 /*HEADER START*/
-header {
+.header {
   background: #ffffff;
   width: 100%;
   max-width: 1250px;
@@ -40,12 +45,15 @@ header {
   margin-bottom: 22px;
   padding-top: 42px;
 }
-.navigation a {
+.navigation__link {
   text-decoration: none;
   font-weight: 400;
   font-size: 20px;
   margin-left: 19px;
   color: #6c6c6c;
+}
+.navigation__link:last-child{
+  margin-left: 0;
 }
 .navigation a:hover {
   border-bottom: 4px solid #5094f2;
@@ -57,13 +65,15 @@ header {
 
 
 /*START MAIN*/
-main {
+.main {
   width: 100%;
   max-width: 1250px;
-  /*BANNER*/
-  /*MAIN CARD START*/
-  /*PRODUCT START*/
 }
+
+
+/*BANNER*/
+
+
 .banner {
   background: url("../images/banner.jpg") no-repeat;
   width: 100%;
@@ -74,6 +84,7 @@ main {
   display: flex;
   justify-content: space-between;
 }
+
 .link-left {
   display: block;
   position: absolute;
@@ -110,32 +121,32 @@ main {
   max-width: 1024px;
   height: auto;
 }
-.banner-content__image-block_image{
+.image-block__image{
   margin-top: 32px;
   margin-left: 63px;
   max-width: 100%;
   min-width: 210px;
 }
 
-.banner-content__text {
+.banner-text {
   width: 100%;
   max-width: 422px;
   height: 270px;
   padding-top: 80px;
   margin-left: 103px;
 }
-.banner-content__heading {
+.banner-text__heading {
   color: rgba(255, 255, 255, 0.7);
   font-size: 41px;
   font-weight: normal;
   width: 100%;
 }
-.banner-content__text-paragraph {
+.banner-text_paragraph {
   color: rgba(255, 255, 255, 0.7);
   font-size: 25px;
   line-height: 41px;
 }
-.banner-content__registration-link {
+.registration-link {
   text-decoration: none;
   font-weight: 400;
   font-size: 20px;
@@ -155,14 +166,14 @@ main {
 }
 
 
-
+/*MAIN CARD START*/
 
 .main-card {
   background: #fff;
   display: flex;
   justify-content: space-around;
   text-align: center;
-  padding: 58px 175px 98px 175px;
+  padding: 58px 50px 98px 50px;
 }
 .card__text-heading {
   color: #5094f2;
@@ -174,8 +185,12 @@ main {
   color: #909090;
   margin-top: 10px;
   display: block;
-  width: 250px;
+  max-width: 250px;
 }
+
+
+/*PRODUCT START*/
+
 .product {
   background: #fff;
   padding-bottom: 60px;
@@ -199,8 +214,8 @@ main {
   padding-top: 42px;
 }
 .product-card__text {
-  width: 500px;
-  height: 310px;
+  max-width: 500px;
+  /*height: 310px;*/
   display: block;
   margin-top: 16px;
   margin-left: 91px;
@@ -216,7 +231,7 @@ main {
   line-height: 36px;
   font-size: 16px;
   display: block;
-  width: 465px;
+  max-width: 465px;
 }
 /*START FOOTER*/
 .footer {
