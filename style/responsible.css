@@ -16,8 +16,6 @@
         right: 10px;
     }
 }
-
-
 @media only screen and (max-width: 1030px) {
     .navigation {
         margin-right: 60px;
@@ -55,14 +53,13 @@
     }
 }
 
-
 @media only screen and (max-width: 800px) {
     .banner-text__heading {
-        font-size: 35px;
+        font-size: 37px;
     }
 
     .banner-text_paragraph {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .main-card {
@@ -80,7 +77,6 @@
         padding: 0;
     }
 
-
     .card {
         display: flex;
         align-items: center;
@@ -93,11 +89,11 @@
     .card__img {
         padding-bottom: 18px;
         padding-top: 32px;
+        max-width: 186px;
     }
 
     .card__text {
         margin-left: 28px;
-
         text-align: left;
     }
 
@@ -124,7 +120,30 @@
         text-align: center;
     }
 }
+@media only screen and (max-width: 760px){
+    .banner-content{
+        align-items: center;
+    }
+    .banner-text{
+        padding: 0;
+    }
+    .banner-text__heading{
+        font-size: 32px;
+        margin: 0;
+    }
+    .banner-text__paragraph{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .registration-link {
+        font-size: 31px;
+        max-width: 234px;
+        width: 100%;
+        border-radius: 2px;
+        margin: 19px 0;
+    }
 
+}
 
 @media only screen and (max-width: 640px) {
     .logo {
@@ -146,11 +165,6 @@
         display: none;
     }
 
-
-    .banner-text {
-
-    }
-
     .banner-text__heading {
         font-size: 28px;
     }
@@ -161,30 +175,26 @@
         line-height: inherit;
     }
 
-    .registration-link {
-        font-size: 31px;
-        max-width: 234px;
-        width: 100%;
-        background: #5094f2;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 20px;
-        border-radius: 2px;
-        margin: 20px auto;
+    .registration-link{
+        margin: 10px 0;
     }
-
+    .product__heading{
+        font-size: 32px;
+        padding-top: 20px;
+    }
 }
 
 @media only screen and (max-width: 630px) {
     .banner-content {
         flex-direction: column;
         justify-content: center;
-
     }
 
     .banner-content__image-block {
         margin: 0 auto;
+    }
+    .banner-image{
+        margin-left: 0;
     }
 
     .banner-image {
@@ -197,5 +207,40 @@
         padding: 0;
         text-align: center;
         margin: 0 auto;
+    }
+    .registration-link{
+        margin: 10px auto;
+    }
+}
+@media only screen and (max-width: 560px){
+    .card{
+        padding-left: 10px;
+    }
+    .card__text-heading{
+        font-size: 28px;
+    }
+    .card__img{
+        padding-left: 0;
+    }
+}
+@media only screen and (max-width: 480px){
+    .logo{
+        margin-left: 70px;
+    }
+    .logo:before{
+        left: 40;
+    }
+    .btn-menu{
+        right: 20px;
+    }
+    .card{
+        flex-direction: column;
+        padding: 0;
+    }
+    .card__text{
+        margin: 0 0 18px 0;
+    }
+    .card__img{
+        padding-top: 20px;
     }
 }
