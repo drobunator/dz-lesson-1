@@ -225,13 +225,18 @@
 }
 @media only screen and (max-width: 480px){
     .logo{
-        margin-left: 70px;
+        margin-left: 80px;
     }
     .logo:before{
         left: 40;
     }
     .btn-menu{
         right: 20px;
+    }
+    .banner-image{
+        margin: 0 auto;
+        display: block;
+        padding-top: 20px;
     }
     .card{
         flex-direction: column;
