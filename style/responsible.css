@@ -1,107 +1,201 @@
-@media only screen and (max-width: 1100px){
-  .navigation{
-    margin-right: 100px;
-  }
-  .main-card{
-    justify-content: space-around;
-    padding: 58px 0 98px 0;
-  }
+@media only screen and (max-width: 1100px) {
+    .navigation {
+        margin-right: 100px;
+    }
+
+    .main-card {
+        justify-content: space-around;
+        padding: 58px 0 98px 0;
+    }
+
+    .link-left {
+        left: 10px;
+    }
+
+    .link-right {
+        right: 10px;
+    }
 }
 
 
+@media only screen and (max-width: 1030px) {
+    .navigation {
+        margin-right: 60px;
+    }
+
+    .link-left {
+        display: none;
+    }
+
+    .link-right {
+        display: none;
+    }
+}
 
 
+@media only screen and (max-width: 960px) {
+
+    .logo {
+        margin-left: 100px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .btn-menu {
+        display: block;
+        position: absolute;
+        right: 27px;
+        bottom: 18px;
+    }
+
+    .registration-link {
+        margin-left: 0;
+    }
+}
 
 
+@media only screen and (max-width: 800px) {
+    .banner-text__heading {
+        font-size: 35px;
+    }
+
+    .banner-text_paragraph {
+        font-size: 20px;
+    }
+
+    .main-card {
+        padding: 0;
+    }
+
+    .product-card__text {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .block-card {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
 
 
+    .card {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        border-bottom: 1px solid #979797;
+        padding-left: 45px;
+        width: 100%;
+    }
 
+    .card__img {
+        padding-bottom: 18px;
+        padding-top: 32px;
+    }
 
+    .card__text {
+        margin-left: 28px;
 
+        text-align: left;
+    }
 
+    .card__text-heading {
+        font-size: 32px;
+        max-width: auto;
+    }
 
+    .product-card__image {
+        margin: 0 auto;
+        width: 50%;
+    }
+    .card-image{
+        max-width: 100%;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
+    .product-card {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .product__heading{
+        margin: 0;
+        text-align: center;
+    }
+}
 
 
 @media only screen and (max-width: 640px) {
-  header .logo {
-    font-size: 42px;
-    margin-left: 100px;
-    position: relative;
-    margin-bottom: 30px;
-  }
-  .navigation {
-    display: none;
-  }
-  main .banner .link-right {
-    display: none;
-  }
-  main .banner .link-left {
-    display: none;
-  }
-  main .banner .banner-content .banner__image-1 {
-    max-width: 220px;
-    height: auto;
-    margin-left: 37px;
-    margin-right: 65px;
-  }
-  main .banner .banner-content .banner__text {
-    width: 100%;
-    max-width: 293px;
-    height: 100px;
-    padding-right: 73px;
-    padding-top: 31px;
-    margin: 0;
-  }
-  main .banner .banner-content .banner__text-heading {
-    color: #fff;
-    font-size: 28px;
-  }
-  main .banner .banner-content .banner__text-paragraph {
-    color: #fff;
-    font-size: 20px;
-    line-height: inherit;
-  }
-  main .banner .banner-content .registration-link {
-    font-size: 31px;
-    width: 234px;
-    height: 51px;
-    background: #5094f2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    border-radius: 2px;
-    margin-left: 0;
-  }
-  main .main__card {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    padding: 0;
-  }
-  main .main__card .card {
-    display: flex;
-    border-bottom: 1px solid #979797;
-  }
-  main .main__card .card img {
-    width: 138px;
-    height: 142px;
-  }
-  main .main__card .card .card-text {
-    display: flex;
-    flex-direction: column;
-  }
+    .logo {
+        font-size: 42px;
+        margin-left: 100px;
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .link-right {
+        display: none;
+    }
+
+    .link-left {
+        display: none;
+    }
+
+
+    .banner-text {
+
+    }
+
+    .banner-text__heading {
+        font-size: 28px;
+    }
+
+    .banner-text__paragraph {
+        color: #fff;
+        font-size: 20px;
+        line-height: inherit;
+    }
+
+    .registration-link {
+        font-size: 31px;
+        max-width: 234px;
+        width: 100%;
+        background: #5094f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        border-radius: 2px;
+        margin: 20px auto;
+    }
+
 }
-/*# sourceMappingURL=responsible.css.map */
+
+@media only screen and (max-width: 630px) {
+    .banner-content {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .banner-content__image-block {
+        margin: 0 auto;
+    }
+
+    .banner-image {
+        width: 80%;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .banner-text {
+        padding: 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
