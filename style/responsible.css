@@ -47,6 +47,9 @@
         right: 27px;
         bottom: 18px;
     }
+    .btn-menu__image{
+        width: 80%;
+    }
 
     .registration-link {
         margin-left: 0;
