@@ -99,7 +99,7 @@
 
     .card__text-heading {
         font-size: 32px;
-        max-width: auto;
+        /*max-width: auto;*/
     }
 
     .product-card__image {
@@ -167,6 +167,7 @@
 
     .banner-text__heading {
         font-size: 28px;
+        margin-top: 15px;
     }
 
     .banner-text__paragraph {
@@ -178,9 +179,17 @@
     .registration-link{
         margin: 10px 0;
     }
+    .card__img{
+        max-width: 150px;
+    }
+
     .product__heading{
         font-size: 32px;
         padding-top: 20px;
+    }
+
+    .product{
+        padding-bottom: 30px;
     }
 }
 
@@ -209,7 +218,7 @@
         margin: 0 auto;
     }
     .registration-link{
-        margin: 10px auto;
+        margin: 20px auto;
     }
 }
 @media only screen and (max-width: 560px){
@@ -228,8 +237,9 @@
         margin-left: 80px;
     }
     .logo:before{
-        left: 40;
+        font-size: 37px;
     }
+
     .btn-menu{
         right: 20px;
     }
@@ -238,6 +248,16 @@
         display: block;
         padding-top: 20px;
     }
+    .banner-text__heading{
+        font-size: 22px;
+
+    }
+    .banner-text__paragraph{
+        font-size: 18px;
+    }
+    .registration-link{
+        font-size: 24px;
+    }
     .card{
         flex-direction: column;
         padding: 0;
@@ -245,7 +265,24 @@
     .card__text{
         margin: 0 0 18px 0;
     }
+    .card__text-heading{
+        font-size: 22px;
+        margin-top: 15px;
+    }
     .card__img{
         padding-top: 20px;
+    }
+    .card__text-paragraph{
+        font-size: 12px;
+    }
+    .product__heading{
+        font-size: 24px;
+    }
+    .product-card__text-heading{
+        font-size: 18px;
+    }
+    .product-card__text-paragraph{
+        font-size: 13px;
+
     }
 }
