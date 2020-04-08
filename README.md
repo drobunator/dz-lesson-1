@@ -1,2 +1,2 @@
-# dz-lesson-1
-Верстка макета по дз с первого урока
+# Prehu
+https://drobunator.github.io/Prechu/
