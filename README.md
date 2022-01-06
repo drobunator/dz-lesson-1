@@ -1,2 +1,2 @@
-# Prehu
-https://drobunator.github.io/Prechu/
+# prehu layout
+https://drobunator.github.io/prechu-layout/
